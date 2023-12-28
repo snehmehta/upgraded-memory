@@ -10,4 +10,5 @@ jobs:
       uses: benc-uk/workflow-dispatch@v1
       with:
         workflow: 80211660
+        repo: ensembleUI/ensemble_live
         token: ${{ secrets.PAT }}
